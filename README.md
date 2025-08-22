@@ -1,6 +1,6 @@
-# MTJ Jewelry - Modern E-commerce Website
+#Jewelry - Modern E-commerce Website
 
-A beautiful, modern jewelry e-commerce website built with React, TypeScript, and Firebase. Features smooth animations, responsive design, and a comprehensive product management system.
+A beautiful, modern jewelry e-commerce website built with React, TypeScript, and Firebase. Features smooth animations, a responsive design, and a comprehensive product management system.
 
 ## ✨ Features
 
@@ -26,6 +26,7 @@ A beautiful, modern jewelry e-commerce website built with React, TypeScript, and
 - **Backend**: Firebase (Firestore + Storage)
 - **Build Tool**: Vite
 - **Routing**: React Router DOM
+
 
 ## 📱 Responsive Design
 
