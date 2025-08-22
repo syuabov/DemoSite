@@ -1,5 +1,4 @@
-import { motion } from 'framer-motion';
-import { User, Package, Heart, Settings, LogOut, Edit3, MapPin, Phone, Mail, Calendar, CreditCard, Lock } from 'lucide-react';
+import {Package, Heart, Settings, LogOut, Edit3} from 'lucide-react';
 import './account.css';
 import { Link } from 'react-router-dom';
 
@@ -82,18 +81,6 @@ const Account = () => {
     });
   };
 
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'delivered':
-        return '#10b981';
-      case 'shipped':
-        return '#3b82f6';
-      case 'processing':
-        return '#f59e0b';
-      default:
-        return '#64748b';
-    }
-  };
 
   const getStatusText = (status: string) => {
     return status.charAt(0).toUpperCase() + status.slice(1);

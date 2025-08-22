@@ -1,5 +1,4 @@
-import { motion } from 'framer-motion';
-import { Trash2, Plus, Minus, ShoppingBag, ArrowLeft, CreditCard, Lock } from 'lucide-react';
+import { Trash2, Plus, Minus, ShoppingBag, CreditCard, Lock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './cart.css';
 
