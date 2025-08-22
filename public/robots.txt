@@ -1,0 +1,6 @@
+# Allow everything
+User-agent: *
+Allow: /
+
+# Point to sitemap
+Sitemap: http://localhost:5173/sitemap.xml
