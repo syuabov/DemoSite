@@ -215,7 +215,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 - Email: info@mtjjewelry.com
-- Website: https://mtjjewelry.com
+- Website: https://syuabovdemosite.netlify.app
 - GitHub Issues: [Create an issue](https://github.com/yourusername/mtj-jewelry/issues)
 
 ## 🙏 Acknowledgments
