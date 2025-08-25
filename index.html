@@ -2,9 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/mainLogo.png" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo Site</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Primary Meta Tags -->
+    <title>MTJ Jewelry - Premium Diamond Rings, Necklaces, Earrings & Luxury Watches</title>
+    <meta name="title" content="MTJ Jewelry - Premium Diamond Rings, Necklaces, Earrings & Luxury Watches" />
+    <meta name="description" content="Discover exquisite jewelry crafted with the finest materials and exceptional craftsmanship. Shop our collection of diamond rings, pearl necklaces, sapphire earrings, gold bracelets, and luxury watches. Free shipping on orders over $500." />
+    <meta name="keywords" content="jewelry, diamond rings, necklaces, earrings, bracelets, watches, luxury jewelry, fine jewelry, engagement rings, wedding rings, pearl jewelry, sapphire jewelry, gold jewelry, silver jewelry" />
+    <meta name="author" content="MTJ Jewelry" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mtjjewelry.com/" />
+    <meta property="og:title" content="MTJ Jewelry - Premium Diamond Rings, Necklaces, Earrings & Luxury Watches" />
+    <meta property="og:description" content="Discover exquisite jewelry crafted with the finest materials and exceptional craftsmanship. Shop our collection of diamond rings, pearl necklaces, sapphire earrings, gold bracelets, and luxury watches." />
+    <meta property="og:image" content="https://mtjjewelry.com/og-image.jpg" />
+    <meta property="og:site_name" content="MTJ Jewelry" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mtjjewelry.com/" />
+    <meta property="twitter:title" content="MTJ Jewelry - Premium Diamond Rings, Necklaces, Earrings & Luxury Watches" />
+    <meta property="twitter:description" content="Discover exquisite jewelry crafted with the finest materials and exceptional craftsmanship. Shop our collection of diamond rings, pearl necklaces, sapphire earrings, gold bracelets, and luxury watches." />
+    <meta property="twitter:image" content="https://mtjjewelry.com/twitter-image.jpg" />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#fbbf24" />
+    <meta name="msapplication-TileColor" content="#fbbf24" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="MTJ Jewelry" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mtjjewelry.com/" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JewelryStore",
+      "name": "MTJ Jewelry",
+      "description": "Premium jewelry store specializing in diamond rings, necklaces, earrings, bracelets, and luxury watches",
+      "url": "https://mtjjewelry.com",
+      "logo": "https://mtjjewelry.com/logo.png",
+      "image": "https://mtjjewelry.com/store-image.jpg",
+      "telephone": "+1-555-123-4567",
+      "email": "info@mtjjewelry.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Jewelry Lane",
+        "addressLocality": "Diamond City",
+        "addressRegion": "DC",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "38.9072",
+        "longitude": "-77.0369"
+      },
+      "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-16:00",
+      "priceRange": "$$",
+      "paymentAccepted": ["Cash", "Credit Card", "PayPal"],
+      "currenciesAccepted": "USD",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Jewelry Collection",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Diamond Eternity Ring",
+              "description": "18k White Gold Diamond Eternity Ring",
+              "category": "Rings"
+            }
+          }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
